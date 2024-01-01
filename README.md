@@ -1,18 +1,12 @@
-# chatboat-project
+**chatboat-project**
 
+This customer care chatbot goes beyond typical queries, addressing device-related questions by leveraging Watson Discovery Service. Pre-loaded with the device's manual, it provides specific manual sections for user queries. Using Smart Document Understanding, the system learns to prioritize essential information, enhancing response accuracy and improving the overall customer support experience. This innovative approach sets our project apart in delivering intelligent, tailored solutions for device operation issues
 
-The typical customer care chatbot can answer simple questions,
-such as store locations and hours, directions, and maybe even making appointments.
-When a question falls outside of the scope of the pre-determined question set, 
-the option is typically to tell the customer the question isn’t valid or offer to speak to a real person.
+**Usage**
 
-In this project, there will be another option. 
-If the customer question is about the operation of a device,
-the application shall pass the question onto Watson Discovery Service, 
-which has been pre-loaded with the device’s owners manual. So now,
-instead of “Would you like to speak to a customer representative?”
-we can return relevant sections of the owners manual to help solve our customers’ problems.
+Provide examples or guidelines on how users can interact with the application.
+Highlight the option to use Watson Discovery Service for device-related queries.
 
-To take it a step further,
-the project shall use the Smart Document Understanding feature of Watson Discovery
-to train it on what text in the owners manual is important and what is not. This will improve the answers returned from the queries.
+**Smart Document Understanding**
+
+The Smart Document Understanding feature of Watson Discovery has been trained on the device's owner's manual to distinguish important text for more accurate responses.
